@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162623594-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('require', 'eventTracker');
+      gtag('require', 'outboundLinkTracker');
+      gtag('require', 'urlChangeTracker');
+      gtag('require', 'cleanUrlTracker');
+      gtag('require', 'maxScrollTracker');
+      gtag('require', 'impressionTracker');
+      gtag('require', 'outboundLinkTracker');
+      gtag('require', 'pageVisibilityTracker');
+      gtag('send', 'pageview');
+      gtag('config', 'UA-162623594-3');
+    </script>
+
     <meta charset="UTF-8">
-    <title>Rish Bhardwaj</title>
+    <title>Marine Iuso</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,26 +31,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:900" rel="stylesheet">
 
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
-
-    <!--tracking-->
-    <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', '{{config.GA_TRACKING_ID}}', 'auto');
-
-        // Replace the following lines with the plugins you want to use.
-        ga('require', 'eventTracker');
-        ga('require', 'outboundLinkTracker');
-        ga('require', 'urlChangeTracker');
-        ga('require', 'cleanUrlTracker');
-        ga('require', 'maxScrollTracker');
-        ga('require', 'impressionTracker');
-        ga('require', 'outboundLinkTracker');
-        ga('require', 'pageVisibilityTracker');
-        // ...
-        ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    <script async src="static/js/autotrack.js"></script>
 
     {% block head %}
     {% endblock %}
