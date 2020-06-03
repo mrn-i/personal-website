@@ -1,0 +1,110 @@
+{
+  "projects": [
+    {
+      "name": "GO2 Project",
+      "link": "go2-project",
+      "date": "March 2020 - Work in progress",
+      "short": "Upload your location history file and learn everything about your environmental impacts!",
+      "status": "Demo",
+      "weight": 7,
+      "tags": [
+        "Python",
+        "Flask",
+        "sklearn"
+      ],
+      "photos": [
+        "/static/projects/go2-project/go2-picture3.png",
+        "/static/projects/go2-project/go2_img.svg",
+        "/static/projects/go2-project/pie_Footprint.svg",
+        "/static/projects/go2-project/go2-picture1.png",
+        "/static/projects/go2-project/go2-picture2.png"
+      ],
+      "videos": [
+        ]
+    },
+    {
+      "name": "RSE Explorer",
+      "link": "RSE-explorer",
+      "date": "March 2020 - App live in June",
+      "short": "CSR commitments from big companies are hard to track. Volunteering with French government and NGO DataforGood, I contributed to this context-aware search engine able to scan all available French extra-financial reports.",
+      "weight": 9,
+      "tags": [
+        "Django",
+        "CSR", "Spacy","NLP"
+      ],
+      "photos": [
+        "/static/projects/RSE-explorer/rse-explo.png",
+        "/static/projects/RSE-explorer/d4g.png"
+      ]
+    },
+    {
+      "name": "Name Prediction",
+      "link": "name-prediction",
+      "date": "April 2020 - Work in Progress",
+      "short": "Some friends of mine are having babies...and a very hard time finding inspiration for the name! This app uses machine learning to match desired character traits with a perfectly suited name. May it be a self-fulfilling prophecy!",
+      "status": "coming soon",
+      "weight": 8,
+      "tags": [
+        "Python","NLP","Flask"
+      ],
+      "photos": [
+        "/static/projects/name-prediction/capture.png"
+      ],
+      "videos": [
+        ],
+      "github": ""
+    },
+    {
+      "name": "Kaamebott",
+      "link": "kaamebott",
+      "date": "April 2020 - Work in Progress",
+      "short": "Struggling to find a landing joke for your next presentation or video script ? This app suggests sentence completion...in the style of Kaamelott dialogue (an awesome French show)",
+      "status": "coming soon",
+      "weight": 8,
+      "tags": [
+        "Python","NLP","Flask"
+      ],
+      "photos": [
+        "/static/projects/kaamebott/kaamelott.jpg"
+      ],
+      "videos": [
+        "<iframe width=\"645\" height=\"481\" src=\"https://www.youtube.com/embed/kNVMfhi58ac\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ],
+      "github": "#"
+    },
+    {
+      "name": "Online classes",
+      "link": "exam-ses",
+      "date": "April 2020 - App is Live",
+      "short": "During confinement, my teacher friend was having a hard time doing online classes. Instead, I set up for him a simple web page to publish videos, course contents and exercises",
+      "status": "coming soon",
+      "weight": 8,
+      "tags": [
+        "Flask","HTML","CSS","Heroku"
+      ],
+      "photos": [
+        "/static/projects/exam-ses/capture.png"
+      ],
+      "videos": [
+        ],
+      "github": "#"
+    },
+    {
+      "name": "GoodPlanet",
+      "link": "goodplanet",
+      "date": "March 2020 - June 2020",
+      "short": "I volunteered with NGO Good Planet to help them gain understanding of the users behavior on the carbon footprint calculators, design a metrics dashboard and improve the experience ",
+      "status": "coming soon",
+      "weight": 12,
+      "tags": [
+        "Python","API", "UX", "Discovery"
+      ],
+      "photos": [
+        "/static/projects/goodplanet/capture.png"
+      ],
+      "videos": [
+       ],
+      "github": "#"
+    }
+  ]
+}

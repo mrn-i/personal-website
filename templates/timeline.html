@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4 l8">
+            <span class="date">2020</span>
+            <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">home</i>
+                        <a href="/timeline" class="title">[life] Moving back in Lyon</a>
+                    </div>
+                    <span class="content">It's been a while since I wanted to get closer to nature and engage in a human-scaled city.
+                        It is now a reality! Can't wait to meet awesome people there.
+                    </span>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">[edu] Product Management / Product Ownership</a>
+                    </div>
+                    <span class="content">Transitioning to digital is awesome, there is SO much content and friendly spirit! I am diving in the Tech universe, learning about Product culture,
+                        Agile management, UX/UI, digital marketing and so on.</br>
+                        <b>Coming soon :</b> a list of the most useful contents I found among MOOCs, podcasts, blogs and books.
+                    </span>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">[edu] Bootcamp DataSciences Fullstack @ JEDHA</a>
+                    </div>
+                    <span class="content"> 12 weeks intense Python programming, applied in Analytics, Machine Learning
+                        and Web development.
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col s12 m4 l8">
+            <span class="date">2019</span>
+            <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">local_airport</i>
+                        <a href="/timeline" class="title">[life] Travels</a>
+                    </div>
+                    <span class="content">Traveled South America and mostly Brazil, doing volunteer work in farms and local communities.
+                        Learnt to speak some brazilian-portuguese along the way.
+                    </span>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] Quit L'Oreal</a>
+                    </div>
+                    <span class="content">Seems like my initial ambition is not satisfying anymore. Time to take a step back and reflect.
+                    </span>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+
+         <div class="col s12 m4 l8">
+            <span class="date">2014</span>
+            <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] Started working at l'Oreal</a>
+                    </div>
+                    <span class="content"> Joining one of the most sought-out French companies felt like a great accomplishment, but I knew I had a lot of work
+                        to do in order to achieve my goal : take part and accelerate the adoption of best environmental practices, in design, communication and management,
+                        throughout the company and all its suppliers value chain.
+                    </span>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">home</i>
+                        <a href="/timeline" class="title">[life] Moving in Paris</a>
+                    </div>
+                    <span class="content">Hello City of Lights!
+                    </span>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">[edu] Graduated from HEC</a>
+                    </div>
+                    <span class="content"> Completed a 1-year MS degree in Project Management
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+                 <div class="col s12 m4 l8">
+            <span class="date">2012</span>
+            <ul>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="/timeline" class="title">[job] Started working at Evéa, Lyon</a>
+                    </div>
+                    <span class="content"> As a life-cycle assessment and eco-design consultant. Performed environmental
+                        impact modelisations with Simapro, conducted Design Thinking workshops with clients from the pharmacy, cosmetic
+                        and food industry.
+
+                    </span>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">home</i>
+                        <a href="/timeline" class="title">[life] Moving in Lyon</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">[edu] Graduated UTC, Compiegne University of Technology</a>
+                    </div>
+                    <span class="content"> Completed a "Grande Ecole" Master's Degree in Mechanical Engineering, focusing on Industrial Design.
+                        CAO, PAO, Materials, Ergonomy, Graphic Design, Value Analysis. Applied through two six-month internships and collaborative projects with Dyson and Total.
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+</div>
+
+<!--<li><a href="/projects/" class="title">[]</a>
+    <span class="content"></span></li>-->
+{% endblock %}

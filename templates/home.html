@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+ <div class="wrapper fixed-top desktop-view">
+     <img class="home" src="static/images/brainstorm.jpg">
+ </div>
+
+<div class="container">
+
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <h1 class="text-title desktop-view">Hello, I am</h1>
+            <p class="text-title desktop-view">Marine Iuso</p>
+            <p class="text-title mobile-view">Marine Iuso</p>
+            <div class="social-icons">
+                <a target="_blank" href="https://github.com/mrn-i">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/marine-iuso/">
+                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text text-align-center">
+            <h2 class="text-content text-center"><strong>Product Owner | Product Manager</strong></h2>
+            <p class="text-content text-center"><strong>[vision]</strong></p>
+            <p class="text-content">My long-term drive is to use technology to shape new behaviors, relieving stress on environmental resources and allowing
+                local resiliences.</p>
+            <p class="text-content text-center"><strong>[path]</strong></p>
+            <p class="text-content text-center">After building a strong operational experience managing physical products, I am transitioning to Digital ones.
+                Through continuous learning and curiosity, I will master the Delivery and Discovery aspects of Product Management, always seeking user value and high adaptation to change.
+                </p>
+            <p class="text-content text-center"><strong>[rules]</strong></p>
+            <p class="text-content text-center"> Enjoying every step on the way and growing along with my team.</p>
+
+            <hr>
+            <p class="text-footer">You can find me on <a href="http://in.linkedin.com/in/marine-iuso/">LinkedIn</a>,
+                or email me <a href="mailto:marine.iuso@gmail.com?Subject=Hello-from-website" target="_top">here</a>.
+            <br>
+            Let's get in touch!
+
+            <p class="text-align-right">Marine</p>
+
+            <p><a href="projects">More about my personal projects right here.</a></p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}
